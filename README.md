@@ -5,7 +5,7 @@
 To build this docker image. 
 
 1. clone repo
-2. run docker build .
+2. run docker build -t tranceash23/hubot-slack-aws:latest .
 
  
 ##To run the hubot-slack-aws bot
