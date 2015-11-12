@@ -1,7 +1,6 @@
 # docker-hubot-slack-aws
 
 ##Hubot integration with slack and ec2 aws service to get private ips using the role tag
-Full Description 
 
 To build this docker image. 
 
