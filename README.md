@@ -14,9 +14,10 @@ To build this docker image.
 3 environment variables need to be exported before running the image
 
 Create a file called env.list
-HUBOT_SLACK_TOKEN=''
-AWS_ACCESS_KEY_ID=''
-AWS_SECRET_ACCESS_KEY=''
+
+`HUBOT_SLACK_TOKEN=''`
+`AWS_ACCESS_KEY_ID=''`
+`AWS_SECRET_ACCESS_KEY=''`
 
 Aws IAM user will need to have ec2:DescribeInstances permissions
 
