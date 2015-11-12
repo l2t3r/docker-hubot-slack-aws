@@ -1,12 +1,12 @@
 ############################################################
 # Dockerfile file to build Hubot with slack support and get 
 # ec2 information back to slack from role tags
-# AUTHOR: Ashley Avileli  <ashleymail4u@gmail.com>
+# AUTHOR: Ashley Avileli
 # Version 0.1
 ############################################################
 
 FROM node:latest
-MAINTAINER Ashley Avileli <ashleymail4u@gmail.com>
+MAINTAINER Ashley Avileli
 
 RUN apt-get -q update
 RUN apt-get -qy install git-core redis-server supervisor python-pip
