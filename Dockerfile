@@ -21,7 +21,7 @@ RUN pip install awscli
 RUN npm install -g yo generator-hubot coffee-script
 
 #Add my modified supervisord.conf to image
-ADD supervisord.conf /etc/supervisor/supervisord.conf
+ADD supervisord.conf /etc/supervisord.conf
 
 #clone my hubot-slack-aws repo
 RUN git clone https://github.com/l2t3r/slack-hubot-aws.git hubot
@@ -29,4 +29,4 @@ RUN git clone https://github.com/l2t3r/slack-hubot-aws.git hubot
 RUN cd hubot && npm install
 
 #Runing my supervisor script
-CMD supervisord -c /etc/supervisor/supervisord.conf
+CMD supervisord -c /etc/supervisord.conf
