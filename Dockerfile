@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y git-core redis-server supervisor python
 
 RUN pip install awscli
 
-ADD supervisord.conf /etc/supervisord.conf
+ADD supervisord.conf /etc/supervisor/supervisord.conf
 RUN git clone https://github.com/l2t3r/slack-hubot-aws.git hubot
 RUN cd hubot && npm install
-CMD supervisord -c /etc/supervisord.conf
+CMD supervisord -c /etc/supervisor/supervisord.conf
