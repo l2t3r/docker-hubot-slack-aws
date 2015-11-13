@@ -2,13 +2,7 @@
 
 ##Hubot integration with slack and ec2 aws service to get private ips using the role tag
 
-To build this docker image. 
-
-1. clone repo
-2. run docker build -t tranceash23/hubot-slack-aws:latest .
-
- 
-##To run the hubot-slack-aws bot
+#To run the hubot-slack-aws bot
 
 3 environment variables need to be exported before running the image
 
