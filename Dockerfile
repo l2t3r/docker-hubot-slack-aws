@@ -1,4 +1,4 @@
-FROM node:0.10-slim
+FROM node:0.10.40-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 MAINTAINER Ashley Avileli
