@@ -20,4 +20,5 @@ Usage
 docker run -d --env-file ./env.list tranceash23/hubot-slack-aws:latest
 
 In slack you can then get ec2 information from a role tag by typing ec2 <tagvalue> <region>
+
 Example: ec2 web us-west-1 [ role=web and region is us-west-1 ]
