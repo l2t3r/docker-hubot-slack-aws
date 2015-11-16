@@ -16,7 +16,7 @@ Create a file called env.list
 
 Aws IAM user will need to have ec2:DescribeInstances permissions
 
-Usage
+##Usage
 docker run -d --env-file ./env.list docker-hubot-slack-ec2:bg
 
 In slack you can then get ec2 information from a role tag by typing ec2 <tagvalue> <region>
