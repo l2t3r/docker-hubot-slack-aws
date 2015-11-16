@@ -3,7 +3,7 @@ FROM node:0.10.40-slim
 ENV DEBIAN_FRONTEND noninteractive
 MAINTAINER Ashley Avileli
 
-RUN apt-get update && apt-get install -y git-core redis-server supervisor python-pip --no-install-recommends && \
+RUN apt-get update && apt-get install -y git-core redis-server supervisor python-pip nano --no-install-recommends && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     npm up -g npm && npm i -g yo generator-hubot coffee-script && \
     npm cache clean
