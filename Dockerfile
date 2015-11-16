@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git-core redis-server supervisor python
     npm up -g npm && npm i -g yo generator-hubot coffee-script && \
     npm cache clean
 
-RUN pip installawscli
+RUN pip install awscli
 
 ADD supervisord.conf /etc/supervisor/supervisord.conf
 RUN git clone -b bg https://github.com/l2t3r/slack-hubot-aws.git hubot
