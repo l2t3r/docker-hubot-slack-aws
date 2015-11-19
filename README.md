@@ -24,3 +24,6 @@ In slack you can then get ec2 information from a role tag by typing ec2 <tagvalu
 Example: ec2 web us-west-1 [ Tag Name: role Value: web and region is us-west-1 ]
 
 ###Additional testing branch...Do not use this branch for your testing.....
+
+Bugs Fixed: 
+  1. Fix job endpoints - 19/05/2015
