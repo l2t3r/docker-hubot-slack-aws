@@ -1,6 +1,7 @@
 FROM node:0.10.40-slim
 
 ENV DEBIAN_FRONTEND noninteractive
+
 MAINTAINER Ashley Avileli
 
 RUN apt-get update && apt-get install -y git-core redis-server supervisor python-pip nano --no-install-recommends && \
